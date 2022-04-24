@@ -43,7 +43,9 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -66,7 +68,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 /*set boder-box model to all elements*/ 
+
 html{
 	box-sizing: border-box;
 }
@@ -74,10 +78,43 @@ html{
 	box-sizing: inherit;
 }
 
+/* Global Style */
+
+.wrapper
+{
+    max-width:400px;
+    margin:auto;
+}
+
+.section-title{
+    font-family: PoppinExtraLight;
+    position: relative;
+    font-size: 30px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 400;
+}
+.section-title::after
+{
+    content: '';
+    display: block;
+    /* position: absolute; */
+    margin:0 auto;
+    bottom: 0;
+    width: 121px;
+    /* left: 25%; */
+    border-top: 1px solid #F7444F;
+}
+/* black top bar */
+
 .topbar{
     height:12px;
     background: #000000;
 }
+
+/* Top Navigation Bar */
 
 .topnav{
     background-color: #ffffff;
@@ -89,7 +126,6 @@ html{
     justify-content: space-between;
     align-items: center;
 }
-
 .topnav img.navtoggle
 {
     height:18px;
@@ -107,13 +143,11 @@ html{
    background: url("images/mobile/mobile-screw.png") no-repeat center right;
    background-size: cover;
    padding: 90px 20px 29px 20px;
-}
-.topbanner .bannerwrapper
-{
-    display:flex;
+   display:flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .topbanner h1
 {
     font-family: Poppins-ExtraLight;
@@ -159,4 +193,35 @@ html{
 .topbanner .dot.red
 {
     background-color: #F7444F;
+}
+
+/* About us section */
+
+.about-us
+{
+    background-color: #ffffff;
+    height: 507px;
+    padding:37px 20px 39px 20px;
+}
+.about-us h3
+{
+font-family: PoppinRegular;
+font-size: 20px;
+color: #4B4B4B;
+letter-spacing: 0;
+text-align: center;
+line-height: 28px;
+font-weight: 400;
+margin-top: 22px;
+}
+.about-us p
+{
+font-family: PoppinLight;
+font-size: 14px;
+color: #4B4B4B;
+letter-spacing: 0;
+text-align: center;
+line-height: 22px;
+font-weight: 400;
+margin-top: 13px;
 }
