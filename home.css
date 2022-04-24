@@ -1,12 +1,24 @@
 /* Load font files */
 
 @font-face {
-    font-family: 'Poppings-Black';
+    font-family: 'Poppins-Black';
     src: url('fonts/Poppins-Black.ttf');
 }
 @font-face {
-    font-family: 'AppleSystemUIFont';
-    src: url('fonts/AppleSystemUIFont.ttf');
+    font-family: 'Poppins-ExtraLight';
+    src: url('fonts/Poppins-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('fonts/Poppins-Medium.ttf');
 }
 
 /* Reset Default Css */
@@ -78,11 +90,13 @@ html{
     align-items: center;
 }
 
-.topnav img.navtoggle{
+.topnav img.navtoggle
+{
     height:18px;
     width:25px;
 }
-.topnav img.magnifier{
+.topnav img.magnifier
+{
     height:20px;
     width:20px;
 }
@@ -90,15 +104,59 @@ html{
 .topbanner
 {
    height: 389px;
-   background: url("images/screws.png") no-repeat center right;
+   background: url("images/mobile/mobile-screw.png") no-repeat center right;
    background-size: cover;
    padding: 90px 20px 29px 20px;
 }
-.topbanner h1{
-   font-family: AppleSystemUIFont;
+.topbanner .bannerwrapper
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.topbanner h1
+{
+    font-family: Poppins-ExtraLight;
     font-size: 30px;
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 40px;
-    font-weight: 400;
+    font-weight: 800;
+    height: 80px;
+}
+.topbanner p
+{
+    font-family: Poppins-Regular;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    font-weight: 100;
+    height:47px;
+    margin-top: 13px;
+}
+.topbanner .hexagons
+{
+    margin-top:20px;
+    height:47.68px;
+}
+.topbanner .dotsgroup
+{
+    display:flex;
+    justify-content: space-between;
+    width:48px;
+    height:10px;
+    margin: 52.3px auto 0;
+}
+.topbanner .dot
+{
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    height:10px;
+    width:10px;
+    box-shadow: 0 10px 20px 0 
+}
+.topbanner .dot.red
+{
+    background-color: #F7444F;
 }
