@@ -4,6 +4,10 @@
     font-family: 'Poppings-Black';
     src: url('fonts/Poppins-Black.ttf');
 }
+@font-face {
+    font-family: 'AppleSystemUIFont';
+    src: url('fonts/AppleSystemUIFont.ttf');
+}
 
 /* Reset Default Css */
 
@@ -58,10 +62,43 @@ html{
 	box-sizing: inherit;
 }
 
-p 
+.topbar{
+    height:12px;
+    background: #000000;
+}
+
+.topnav{
+    background-color: #ffffff;
+    /* opacity: 0.05; */
+    height:76px;
+    /* border: #000000 2px solid; */
+    padding: 22px 21px 21.7px 17px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav img.navtoggle{
+    height:18px;
+    width:25px;
+}
+.topnav img.magnifier{
+    height:20px;
+    width:20px;
+}
+
+.topbanner
 {
- color:red;
- font-weight:bold;
- font-size: 30px;
- font-family: Poppings-Black;
+   height: 389px;
+   background: url("images/screws.png") no-repeat center right;
+   background-size: cover;
+   padding: 90px 20px 29px 20px;
+}
+.topbanner h1{
+   font-family: AppleSystemUIFont;
+    font-size: 30px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 40px;
+    font-weight: 400;
 }
