@@ -92,6 +92,23 @@ html{
     flex-direction: column;
     justify-content: center; */
 }
+.readmore-box
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 144px;
+    margin: 20px auto 0;
+   
+}
+span.text
+{
+    font-family: PoppinRegular;
+    font-size: 14px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    font-weight: 400;
+}
 .red-nav-ball{
     background-color: #F7444F ;
     border-radius: 50%;
@@ -243,23 +260,7 @@ font-weight: 400;
 margin-top: 13px;
 height:248px;
 }
-.about-us .readmore-box
-{
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 144px;
-    margin: 20px auto 0;
-   
-}
-.about-us span.text
-{
-    font-family: PoppinRegular;
-    font-size: 14px;
-    color: #4B4B4B;
-    letter-spacing: 0;
-    font-weight: 400;
-}
+
 .our-product
 {
     padding-top:33px;
@@ -323,6 +324,7 @@ height:248px;
     background-color: #F7444F;
 }
 
+/* Our Partner Section */
 .section-our-partner.wrapper
 {   
     background-color: #FFFFFF;
@@ -330,21 +332,122 @@ height:248px;
     padding-top: 61.6px;
     padding-bottom: 46px;
 }
+.section-our-partner img
+{
+    display:block;
+    height : 77.47px;
+    max-width: 264.7px;
+    margin: 0 auto 32.17px;
+    
+}
+.section-our-partner .section-title::after
+{
+    width:121px; 
+}
+.section-our-partner h2
+{
+    font-family: PoppinRegular;
+    font-size: 20px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 400;
+    height:28px;
+    width:335px;
+    margin-top:47px;
+}
+.section-our-partner p
+{
+    font-family: PoppinLight;
+    font-size: 14px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 400;
+    width:335px;
+    height:158px;
+    margin-top: 20px;
+}
+.section-our-partner .readmore-box
+{
+    margin-top:37px;
+}
 
 
-
-
-
-
-
-
-.section-testimonials.wrapper
+.testimonials.wrapper
 {   
     /* background-color: #FFFFFF; */
     height:524px;
-    padding-top: 46px;
-    padding-bottom: 44px;
+    /* padding-top: 46px;
+    padding-bottom: 44px; */
+    
+    background: url("images/mobile/mobile-screw.png") no-repeat center right;
+    background-size: cover;
+    padding: 46px 41px 44px;
+    opacity: 0.19;
+    /* background-color: rgba(0,0,0,0.19); */
 }
+.testimonials .customer
+{
+    display:flex;
+    width:215px;
+    justify-content:space-between;
+    margin-top:53px;
+}
+.testimonials .customer img
+{
+    height:40px;
+    width:40px;
+}
+.testimonials .customer .details
+{
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.testimonials .customer .details .name
+{
+    font-family: PoppinMedium;
+    font-size: 14px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.testimonials .customer .details .company
+{
+    font-family: PoppinLight;
+    font-size: 14px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    font-weight: 400;
+}
+.testimonials .comments
+{
+    font-family: PoppinLight;
+    font-size: 14px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top:25px;
+}
+.testimonials .dotsgroup
+{
+    margin-top: 83px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -373,7 +476,6 @@ height:248px;
     padding-left:27px;
     padding-right:25px;
 }
-
 
 .section-map.wrapper
 {
