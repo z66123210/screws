@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="284px" height="207px" viewBox="0 0 284 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <defs>
+        <path d="M263,0 C265.761424,-1.39544373e-15 268,2.23857625 268,5 L268,171.347826 C268,174.10925 265.761424,176.347826 263,176.347826 L132,176.347 L117,192 L117,176.347 L5,176.347826 C2.23857625,176.347826 3.38176876e-16,174.10925 0,171.347826 L0,5 C-3.38176876e-16,2.23857625 2.23857625,-3.80913106e-16 5,0 L263,0 Z" id="path-1"></path>
+        <filter x="-4.5%" y="-6.2%" width="109.0%" height="112.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="maptco_homepage_mobile" transform="translate(-72.000000, -4465.000000)">
+            <g id="Group-4" transform="translate(80.000000, 4473.000000)">
+                <g id="Combined-Shape">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="MELBOURNE-HEAD-OFFIC" font-family=".AppleSystemUIFont" font-size="20" font-weight="normal" fill="#4B4B4B">
+                    <tspan x="12" y="30">MELBOURNE HEAD OFFICE</tspan>
+                    <tspan x="257.774307" y="30" font-size="14"></tspan>
+                    <tspan x="12" y="53" font-size="14">72 Capital Link Drive</tspan>
+                    <tspan x="12" y="70" font-size="14">Campbellfield VIC 3061</tspan>
+                    <tspan x="12" y="87" font-size="14"></tspan>
+                    <tspan x="12" y="104" font-size="14">Tel: +61 3 9357 9932</tspan>
+                    <tspan x="12" y="121" font-size="14">Fax: +61 3  9357 9982</tspan>
+                    <tspan x="12" y="138" font-size="14">Email: salesmel@maptco.com.au</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -78,6 +78,9 @@ html{
 	box-sizing: inherit;
 }
 
+/* html{
+    height:100%;
+} */
 /* Global Style */
 
 .dotsgroup
@@ -99,7 +102,7 @@ html{
 }
 .wrapper
 {
-    max-width:400px;
+    max-width:375px;
     margin:auto;
     padding: 0 20px;
     /* display:flex;
@@ -542,7 +545,7 @@ height:248px;
     /* padding-top: 46px;
     padding-bottom: 44px; */
     
-    background: url("images/mobile/mobile-screw.png") no-repeat center right;
+    background: url("newmobile/transparent.png") no-repeat center right;
     background-size: cover;
     padding: 46px 41px 44px;
     /* opacity: 0.19; */
@@ -799,11 +802,94 @@ font-weight: 400;
     padding:0;
     background: url(images/find_us/map.png) no-repeat center right;
     background-size: cover;
+    position: relative;
 
+}
+.map .dialog
+{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.map .location
+{
+    top: 271px;
+    left: 174px;
+    position: absolute;
+    
 }
 
 .footer.wrapper
 {
-    height:173px;
-    padding:0;
+     background: url("newmobile/footerimg.png") no-repeat center right;
+     background-size: cover;
+     padding: 46px 41px 44px;
+     height:118px ;
+     padding-top: 25px;
+     padding-bottom: 19px;
+     position:relative;
+     /* opacity: 0.19; */
+     /* background-color: rgba(0,0,0,0.19); */
+}
+.footer .menu
+{
+    display: flex;
+    align-items: center;
+}
+.footer .menu span
+{
+    font-family: PoppinMedium;
+font-size: 10px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 24px;
+font-weight: 400;
+    margin-left: 25px;
+}
+.footer .menu .first
+{
+    margin-left: 0;
+}
+.footer .icongroup
+{
+    display: flex;
+    align-items: center;
+    margin-top:20px
+}
+.footer .icongroup .maptco
+{
+    width: 39.3%;
+    height: 1.2%;
+
+}
+.footer .icongroup .gem
+{   
+    margin-left: 6.9%;
+    max-width: 32.7%;
+    max-height: 1.2%;
+
+}
+.bottomblackbar
+{
+    font-family: PoppinLight;
+font-size: 10px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 24px;
+font-weight: 400;
+background-color: #000000;
+width:375px;
+height: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.chaticon img
+{   
+    display:inline-block;
+    width:50px;
+    height:50px;
+    position: absolute;
+    right:19px;
+    bottom:90px;
 }
