@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="home.css">
 </head>
 <body>
-<div class="topbar"></div>
+<div class="topbar wrapper"></div>
+
+<div class="web-topbar wrapper">
+    <input type="text" placeholder ="search">
+    <div class="icons">
+        <img class="heart" src="images/heart_icon.svg" alt="heart">
+        <img class="bag" src="images/bag_icon.svg" alt="heart">
+        <img class="human" src="images/human_icon.svg" alt="heart">
+        <span class="login">Login</span>
+        <img class="gem"src="images/Mobile/PopMenu/GEMicon.svg" alt="GEM Icon">
+    </div>
+</div>
+
 <div class="topnav">
     
     <label for="navToggle" class="navToggleLabel">
@@ -20,7 +32,7 @@
     <nav>
       <ul>
           <div class="greenbar"></div>
-        <li>
+        <li class="hidelist">
             <span>
                 <img class="heart" src="images/heart_icon.svg" alt="heart">
                 <img class="bag" src="images/bag_icon.svg" alt="heart">
@@ -30,7 +42,7 @@
             <img class ="close" src="images/closeicon.svg" alt="Close Icon">
             </label>
         </li>
-        <li><a href="#home">Home</a></li>
+        <li class="hidelist"><a href="#home">Home</a></li>
         <li><a href="#team">Our Product</a></li>
         <li><a href="#gallery">Shop Online</a></li>
         <li><a href="#problem">About US</a></li>
@@ -51,21 +63,25 @@
             We carry the most extensive range of "Hard to Find" fastener products
         </p>
         <img class ="hexagons" src="images/mobile/mobile-Hexagon.svg" alt="mobile-Hexagon">
-        <div>
-            <!-- <img class ="dots" src="images/mobile/banner/mobile-white-dot.svg" alt="mobile-white-dot.svg">
-            <img class ="dots" src="images/mobile/banner/mobile-white-dot.svg" alt="mobile-white-dot.svg">
-            <img class ="dots" src="images/mobile/banner/mobile-red-dot.svg" alt="mobile-red-dot.svg"> -->
+        
             <span class="dotsgroup">
                 <span class="dot"></span>
                 <span class="dot"></span>
                 <span class="dot red"></span>
             </span>
-        </div>
+            <div class="web-doublearrows">
+                <img src="web/doublearrows.svg" alt="arrows">
+                <span class="page">
+                    1/3
+                </span>
+            </div>
+        
 </div>
 
 <div class="about-us wrapper">
-  
+
         <h1 class ="section-title">About us</h1>
+        <div class="web-flex">
         <h3>Maptco Fasteners</h3>
         <p>
             Incorporated in 1999, Maptco has become a major wholesaler and distributor in Australia for a wide range of High Tensiles and Mild Steel Fasteners. 
@@ -75,6 +91,7 @@
         <div class="readmore-box">
             <span class="text">Read more</span>
             <span class="red-nav-ball"><span class="white-arrow"></span></span>
+        </div>
         </div>
  
 </div>
@@ -86,15 +103,35 @@
     <div class="item-list">
         <div class="cel1">
             <img class="item" src="images/our_product/cel1.png" alt="Product Image">
+            <div class="details">
+                <div class="product">HIGH TENSILE BOLTS</div>
+                <img src="web/product/cart.svg" alt="cart">
+                Add to Cart
+            </div>
         </div>
         <div class="cel2">
             <img class="item" src="images/our_product/cel2.png" alt="Product Image">
+            <div class="details">
+                <div class="product">HIGH TENSILE BOLTS</div>
+                <img src="web/product/cart.svg" alt="cart">
+                Add to Cart
+            </div>
         </div>
         <div class="cel3">
             <img class="item" src="images/our_product/cel3.png" alt="Product Image">
+            <div class="details">
+                <div class="product">HIGH TENSILE BOLTS</div>
+                <img src="web/product/cart.svg" alt="cart">
+                Add to Cart
+            </div>
         </div>
         <div class="cel4">
             <img class="item" src="images/our_product/cel4.png" alt="Product Image">
+            <div class="details">
+                <div class="product">HIGH TENSILE BOLTS</div>
+                <img src="web/product/cart.svg" alt="cart">
+                Add to Cart
+            </div>
         </div>
     </div>
 
@@ -103,6 +140,12 @@
         <span class="dot"></span>
         <span class="dot red"></span>
     </span>
+    <div class="web-doublearrows">
+        <img src="web/doublearrows.svg" alt="arrows">
+        <span class="page">
+            1/4
+        </span>
+    </div>
 </div>
 
 <!-- Partner section -->

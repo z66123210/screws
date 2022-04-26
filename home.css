@@ -168,7 +168,7 @@ span.text
 }
 
 /* Input Fields Style */
-input[type=text]
+.quotation-green [type=text]
 {
     border: 1px solid #FFFFFF;
     width:334px;
@@ -177,7 +177,7 @@ input[type=text]
     margin-top:31px;
     padding-left:16px;
 }
-input[type=text]::placeholder
+.quotation-green input[type=text]::placeholder
 {
     font-family: PoppinLight;
     font-size: 14px;
@@ -893,3 +893,311 @@ justify-content: center;
     right:19px;
     bottom:90px;
 }
+
+.web-topbar.wrapper{
+    display:none;
+}
+.web-doublearrows{
+    display:none;
+}
+.our-product.wrapper .item-list .details
+{
+    display:none;
+}
+
+
+
+/* Media Query */
+@media only screen and (min-width: 400px) {
+    .web-doublearrows
+    {
+        display: block;
+    }
+ .wrapper
+{
+    max-width:  1440px;
+    margin:auto;
+    padding: 0 199px;
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+    .topbar
+    {
+        height:12px;
+        width:100%;
+    }
+
+  /* .topnav{
+      display: none;
+  } */
+  .web-topbar.wrapper
+  {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.05);
+    height:58px;
+  }
+  .web-topbar.wrapper .icons
+  {
+    display:flex;
+    align-items: center;
+  }
+  .web-topbar.wrapper .icons .bag
+  {
+      margin-left:29px;
+      margin-right:29px;
+  }
+  .web-topbar.wrapper .icons .human
+  {
+      margin-right:20px;
+  }
+  .web-topbar.wrapper .icons .human
+  {
+      margin-right:20px;
+  }
+  .web-topbar.wrapper .icons .login
+  {
+      padding-left:20px;
+      padding-right:20px;
+      border-left: 1px solid #1C1C1C;
+      border-right: 1px solid #1C1C1C;
+      font-family: PoppinRegular;
+       font-size: 14px;
+       color: #4B4B4B;
+      letter-spacing: 0;
+      font-weight: 400;
+  }
+  .web-topbar.wrapper .icons .gem
+  {
+      margin-left:22.28px;
+  }
+  .topnav
+  {
+      all:inherit;
+      
+  }
+  .topnav * 
+  {
+    all: unset;
+  }
+  .topnav .hidelist{
+      display: none;
+  }
+  .navToggleLabel, .navtoggle, .searchbtn, .topnav .bottombar
+  {
+      display: none;
+  }
+  .topnav
+  {
+      height:135px;
+      display: flex;
+      max-width:1440px;
+      justify-content: space-evenly;
+      align-items: flex-end;
+      padding-bottom: 32.37px;
+      padding-left:100px;
+      padding-right: 120px;
+      /* padding-right:199px; */
+  }
+  .topnav .greenlogo
+  {
+      width:269px;
+      height: 69.93px;
+  }
+  .topnav nav ul li{
+    font-family: PoppinLight;
+    font-size: 14px;
+    color: #4B4B4B;
+    letter-spacing: 0;
+    font-weight: 400;
+    margin-left:60px;
+  }
+
+  .topbanner{
+    background: url(web/Banner/bannerbg.png) no-repeat center right;
+    background-size: cover;
+    height:613px;
+    align-items: flex-start;
+    padding-top:100px;
+  }
+  .topbanner .dotsgroup{
+      display: none;
+  }
+  .topbanner h1
+  {
+      width:830px;
+      height:140px;
+font-size: 60px;
+color: #FFFFFF;
+letter-spacing: 0;
+line-height: 70px;
+font-weight: 400;
+font-family: PoppinRegular;
+  }
+  .topbanner p
+  {
+      width:574px;
+      height:70px;
+      font-size: 20px;
+color: #FFFFFF;
+letter-spacing: 0;
+font-weight: 400;
+/* font-family: PoppinLight; */
+  }
+.topbanner .web-doublearrows
+{
+    width:174px;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:70px;
+    margin-left: -20px;
+
+}
+
+.topbanner .web-doublearrows .page
+{
+    font-family: PoppinLight;
+font-size: 20px;
+color: #FFFFFF;
+letter-spacing: 3px;
+font-weight: 400;
+margin-left: 20px;
+margin-bottom: 17px;
+}
+
+.about-us.wrapper
+{
+    height: 451px;
+    padding-top:104px;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    /* text-align: left; */
+}
+.about-us .web-flex
+{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.section-title::after{
+      all: unset;
+}
+.about-us .section-title{
+    height:186px;
+    width:360px;
+    border-right: 1px solid #F7444F;
+    
+font-size: 60px;
+color: #4B4B4B;
+letter-spacing: 0;
+line-height: 60px;
+font-weight: 400;
+}
+.about-us p
+{
+    width:672px;
+    height:168px;
+    text-align: start;
+}
+.about-us h3
+{
+    text-align: start;
+}
+.our-product.wrapper
+{
+  height: 739px;
+  padding-top:85px;
+
+}
+.our-product.wrapper .item-list
+{
+    all:unset;
+}
+.our-product.wrapper .item-list
+{
+    display:flex;
+    width:966px;
+    justify-content: space-between;
+    margin-top:120px;
+}
+.our-product.wrapper .item-list .details
+{
+    display:block;
+    font-family: PoppinLight;
+font-size: 14px;
+color: #00783E;
+letter-spacing: 0;
+font-weight: 400;
+text-align: center;
+margin-top: 15.7px;
+}
+.our-product.wrapper .item-list .details img
+{
+    width:20px;
+    height:20px;
+    
+}
+
+.our-product.wrapper .section-title
+{
+font-size: 60px;
+color: #4B4B4B;
+letter-spacing: 0;
+text-align: center;
+line-height: 60px;
+font-weight: 400;
+}
+.our-product.wrapper .item-list .details .product
+{
+font-size: 14px;
+color: #4B4B4B;
+letter-spacing: 0;
+font-weight: 400;
+margin-bottom: 19px;
+}
+.our-product .dotsgroup
+{
+    display:none;
+}
+
+.our-product .web-doublearrows
+{
+    width:174px;
+    height:40px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:70px;
+    margin-left: -20px;
+
+}
+
+.our-product .web-doublearrows .page
+{
+    font-family: PoppinLight;
+font-size: 20px;
+/* color: #FFFFFF; */
+letter-spacing: 3px;
+font-weight: 400;
+margin-left: 20px;
+margin-bottom: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  }
